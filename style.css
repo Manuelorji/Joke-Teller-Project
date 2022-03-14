@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(./images/robot.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 15rem;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+}
+
+.container button {
+  background: transparent;
+  outline: none;
+  color: rgb(32, 32, 32);
+  padding: 6px;
+  font-weight: 700;
+  font-size: large;
+  border-radius: 8px;
+}
